@@ -24,16 +24,13 @@ module.exports = {
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
-		{
-			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "lavalink.pantheralps.cc", //- The host name or IP of the lavalink server.
-			port: 443, // The port that lavalink is listening to. This must be a number!
-			password: "pantheralps.cc", //- The password of the lavalink server.
-			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
-			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
-		},
-	],
+     {
+        host: "127.0.0.1",
+        port: 2333,
+        password: "youshallnotpass",
+        secure: false
+     }
+  ],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
 	presence: {
 		// PresenceData object | https://discord.js.org/#/docs/main/stable/typedef/PresenceData
